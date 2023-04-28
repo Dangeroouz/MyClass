@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style__.css">
+    <title>Online освіта з MyClass</title>
+  </head>
+  <body class="page container">
+    <header class="main-header">
+      <nav class="main-nav">
+        <a class="main-header-logo" href="#"><img src="img/logo.svg" alt=""></a>
+        <ul class="site-navigation">
+          <li class="site-navigation-item">
+            <a class="site-navigation-link site-navigation-link-active" href="#">
+              <img src="img/courses.svg" alt="">
+              <span>Курси</span>
+            </a>
+          </li>
+          <li class="site-navigation-item">
+            <a class="site-navigation-link" href="#">
+              <img src="img/book.svg" alt="">
+              <span>Посібники</span>
+            </a>
+          </li>
+          <li class="site-navigation-item">
+            <a class="site-navigation-link" href="#">
+              <img src="img/headphones.svg" alt="">
+              <span>Репетитори</span>
+            </a>
+          </li>
+          <li class="site-navigation-item">
+            <a class="site-navigation-link" href="#">
+              <img src="img/test.svg" alt="">
+              <span>Тести</span>
+            </a>
+          </li>
+          <li class="site-navigation-item">
+            <a class="site-navigation-link" href="#">
+              <img src="img/plays.svg" alt="">
+              <span>Ігри</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="settings">
+        <h2>Тема</h2>
+        <ul class="theme-list">
+          <li class="theme-item">
+            <button class="theme-button active button-theme-light" type="button">
+              <img src="img/theme-light-preview.png" width="67" height="43" alt="Білий та бузковий колір теми">
+              <span>Світла</span>
+            </button>
+          </li>
+          <li class="theme-item">
+            <button class="theme-button button-theme-dark" type="button">
+              <img src="img/theme-dark-preview.png" width="67" height="43" alt="темний і бузковий кольори теми">
+              <span>Темна</span>
+            </button>
+          </li>
+          <li class="theme-item">
+            <button class="theme-button button-theme-texture" type="button">
+              <img src="img/theme-texture-preview.png" width="67" height="43" alt="Сірий камінь">
+              <span>Текстура</span>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <main class="main-page">
+      <div class="user-menu-wrapper">
+        <div class="user-menu-search-wrapper">
+          <input type="search" class="search" id="search" placeholder="Search here..." >
+        </div>
+        <div class="flex">
+          <ul class="user-menu">
+            <li class="user-menu-item">
+              <a class="user-menu-button user-menu-button-notification" href="#">
+                <span class="notification-count">4</span>
+                <img src="img/bell.svg" alt="">
+                <span class="visually-hidden">Сповіщення</span>
+              </a>
+            </li>
+            <li class="user-menu-item">
+              <a class="user-menu-button user-menu-button-bookmark" href="#">
+                <img src="img/bookmark.svg" alt="">
+                <span class="visually-hidden">Додати в закладки</span>
+              </a>
+            </li>
+          </ul>
+          <a class="user-button" href="#">
+            <img src="img/user.jpg" width="36" height="36" alt="">
+            <span>Валерія</span>
+          </a>
+        </div>
+      </div>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item">
+          <a href="#">Курси</a>
+          <img src="img/Ellipse.png" alt="">
+        </li>
+        <li class="breadcrumbs-item">
+          <a href="#">Розробка</a>
+          <img src="img/Ellipse.png" alt="">
+        </li>
+        <li class="breadcrumbs-item">
+          <a href="#">Веб-розробка</a>
+        </li>
+      </ul>
+      <article class="main-article">
+        <h1>Веб-розробка</h1>
+        <section class="main-article-section">
+          <h2>Популярні теми</h2>
+          <ul class="hashtags">
+            <li class="hashtag">
+              <a href="#">All</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">JavaScript</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">WordPress</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">React</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">PHP</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Python</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">CSS</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">HTML5</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Node.JS</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Angular</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Vue JS</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Django</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Redux Framework</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Linux</a>
+            </li>
+            <li class="hashtag">
+              <a href="#">Bootstrap</a>
+            </li>
+          </ul>
+        </section>
+        <div class="controls">
+          
+          <ul class="sort-list">
+            <li class="sort-item" >
+              <p class="sort-title">Сортувати за:</p>
+            </li>
+            <li class="sort-item" data-sort=".time" data-sort=".raiting">
+              <a href="#">часом</a>
+            </li>
+            <li class="sort-item" data-sort=".raiting">
+              <a href="#">рейтингом</a>
+            </li>
+            <li class="sort-item" data-sort=".price">
+              <a href="#">ціною</a>
+            </li>
+          </ul>
+          <ul class="card-view-buttons">
+            <li class="card-view-item">
+              <button class="card-view-button active card-view-button-tile" type="button">
+                <span class="visually-hidden">Плитка</span>
+                <img src="img/tile.svg" alt="">
+              </button>
+            </li>
+            <li class="card-view-item">
+              <button class="card-view-button card-view-button-standart" type="button">
+                <span class="visually-hidden">Список</span>
+                <img src="img/standart.svg" alt="">
+              </button>
+            </li>
+            <li class="card-view-item">
+              <button class="card-view-button card-view-button-compact" type="button">
+                <span class="visually-hidden">Компактний список</span>
+                <img src="img/compact.svg" alt="">
+              </button>
+            </li>
+          </ul>
+        </div>
+        <ul class="cards">
+          <li class="cards-item" data-hashtag="JavaScript">
+            <article class="card">
+              <div class="card-img-background">
+                <img src="img/picture-1.svg" width="142" height="132" alt="Хлопець малює таблицю">
+              </div>
+              <div class="card-content">
+                <h2>
+                  <a href="#">Повний курс по JavaScript</a>
+                </h2>
+                <p class="">Опануй найпопулянішу мову програмування — JavaScript, і навчися застосовувати знання на практиці</p>
+                <dl class="card-meta-list">
+                  <div class="card-meta card-meta-raiting">
+                    <dt>
+                      <span class="visually-hidden">Рейтинг</span>
+                      <img src="img/star.svg" alt="">
+                    </dt>
+                    <dd class="raiting">4.0</dd>
+                  </div>
+                  <div class="card-meta card-meta-time">
+                    <dt>
+                      <span class="visually-hidden">Час прочитання</span>
+                      <img src="img/time.svg" alt="">
+                    </dt>
+                    <dd class="time">72</dd><span>години</span>
+                  </div>
+                  <div class="card-meta card-meta-price">
+                    <dt>
+                      <span class="visually-hidden">ціна</span>
+                      <img src="img/dollar.png" alt="">
+                    </dt>
+                    <dd class="price">2900</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </li>
+          <li class="cards-item" data-hashtag="HTML5,CSS">
+            <article class="card">
+              <div class="card-img-background">
+                <img src="img/picture-2.svg" width="196" height="119" alt="Комп'ютер, планшет, різні види мобільних телефонів">
+              </div>
+              <div class="card-content">
+                <h2>
+                  <a href="#">Створення адаптивних сайтів</a>
+                </h2>
+                <p class="">Адаптивна верстка з нуля для початківців на прикладі односторінкового сайту</p>
+                <dl class="card-meta-list">
+                  <div class="card-meta card-meta-raiting">
+                    <dt>
+                      <span class="visually-hidden">Рейтинг</span>
+                      <img src="img/star.svg" alt="">
+                    </dt>
+                    <dd class="raiting">4.9</dd>
+                  </div>
+                  <div class="card-meta card-meta-time">
+                    <dt>
+                      <span class="visually-hidden">Час прочитання</span>
+                      <img src="img/time.svg" alt="">
+                    </dt>
+                    <dd class="time">12</dd><span>годин</span>
+                  </div>
+                  <div class="card-meta card-meta-price">
+                    <dt>
+                      <span class="visually-hidden">ціна</span>
+                      <img src="img/dollar.png" alt="">
+                    </dt>
+                    <dd class="price">1900</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </li>
+          <li class="cards-item" data-hashtag="Node.JS,JavaScript">
+            <article class="card">
+              <div class="card-img-background">
+                <img src="img/picture-5.svg" width="159" height="132" alt="Дівчина малює графік">
+              </div>
+              <div class="card-content">
+                <h2>
+                  <a href="#">Node JS. Практичний курс</a>
+                </h2>
+                <p class="">Повний гайд зі створення сайтів і застосунків на серверному JavaScript, включаючи бази даних і створення API</p>
+                <dl class="card-meta-list">
+                  <div class="card-meta card-meta-raiting">
+                    <dt>
+                      <span class="visually-hidden">Рейтинг</span>
+                      <img src="img/star.svg" alt="">
+                    </dt>
+                    <dd class="raiting">4.8</dd>
+                  </div>
+                  <div class="card-meta card-meta-time">
+                    <dt>
+                      <span class="visually-hidden">Час прочитання</span>
+                      <img src="img/time.svg" alt="">
+                    </dt>
+                    <dd class="time">15</dd><span>годин</span>
+                  </div>
+                  <div class="card-meta card-meta-price">
+                    <dt>
+                      <span class="visually-hidden">ціна</span>
+                      <img src="img/dollar.png" alt="">
+                    </dt>
+                    <dd class="price">1400</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </li>
+          <li class="cards-item" data-hashtag="Python">
+            <article class="card">
+              <div class="card-img-background">
+                <img src="img/picture-6.svg" width="72" height="141" alt="Ракета">
+              </div>
+              <div class="card-content">
+                <h2>
+                  <a href="#">Повний курс по Python 3</a>
+                </h2>
+                <p class="">Доступно і просто для новачків. Почніть з основ і пройдіте весь шлях до створення власних застосунків</p>
+                <dl class="card-meta-list">
+                  <div class="card-meta card-meta-raiting">
+                    <dt>
+                      <span class="visually-hidden">Рейтинг</span>
+                      <img src="img/star.svg" alt="">
+                    </dt>
+                    <dd class="raiting">4.8</dd>
+                  </div>
+                  <div class="card-meta card-meta-time">
+                    <dt>
+                      <span class="visually-hidden">Час прочитання</span>
+                      <img src="img/time.svg" alt="">
+                    </dt>
+                    <dd class="time">45</dd><span>годин</span>
+                  </div>
+                  <div class="card-meta card-meta-price">
+                    <dt>
+                      <span class="visually-hidden">ціна</span>
+                      <img src="img/dollar.png" alt="">
+                    </dt>
+                    <dd class="price">2800</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </li>
+          <li class="cards-item" data-hashtag="Django">
+            <article class="card">
+              <div class="card-img-background">
+                <img src="img/picture-3.svg" width="142" height="124" alt="Хлопець вивчає графіки">
+              </div>
+              <div class="card-content">
+                <h2>
+                  <a href="#">Django 3. Сервіс для збору даних</a>
+                </h2>
+                <p class="">Повноцінний сервис, побудований на Django 3. Збір даних про вакансії з відкритих джерел за заданими параметрами</p>
+                <dl class="card-meta-list">
+                  <div class="card-meta card-meta-raiting">
+                    <dt>
+                      <span class="visually-hidden">Рейтинг</span>
+                      <img src="img/star.svg" alt="">
+                    </dt>
+                    <dd class="raiting">4.7</dd>
+                  </div>
+                  <div class="card-meta card-meta-time">
+                    <dt>
+                      <span class="visually-hidden">Час прочитання</span>
+                      <img src="img/time.svg" alt="">
+                    </dt>
+                    <dd class="time">25</dd><span>годин</span>
+                  </div>
+                  <div class="card-meta card-meta-price">
+                    <dt>
+                      <span class="visually-hidden">ціна</span>
+                      <img src="img/dollar.png" alt="">
+                    </dt>
+                    <dd class="price">2000</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </li>
+          <li class="cards-item" data-hashtag="Bootstrap">
+            <article class="card">
+              <div class="card-img-background">
+                <img src="img/picture-4.svg" width="180" height="131" alt="Кран, ноутбук та планшет">
+              </div>
+              <div class="card-content">
+                <h2>
+                  <a href="#">Bootstrap для новачків</a>
+                </h2>
+                <p class="">Навчіться верстати сайти Швидко і ефективно, завдяки застосуванню готових компонентів фреймворку</p>
+                <dl class="card-meta-list">
+                  <div class="card-meta card-meta-raiting">
+                    <dt>
+                      <span class="visually-hidden">Рейтинг</span>
+                      <img src="img/star.svg" alt="">
+                    </dt>
+                    <dd class="raiting">4.6</dd>
+                  </div>
+                  <div class="card-meta card-meta-time">
+                    <dt>
+                      <span class="visually-hidden">Час прочитання</span>
+                      <img src="img/time.svg" alt="">
+                    </dt>
+                    <dd class="time">5</dd><span>годин</span>
+                  </div>
+                  <div class="card-meta card-meta-price">
+                    <dt>
+                      <span class="visually-hidden">ціна</span>
+                      <img src="img/dollar.png" alt="">
+                    </dt>
+                    <dd class="price">400</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
